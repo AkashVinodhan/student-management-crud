@@ -34,21 +34,9 @@ export default function Provider(props) {
     }).then((res) => fetchStudents());
   };
 
-  //   const deleteProduct = (id) => {
-  //     setProductData(productData.filter((value) => value.id !== id));
-  //   };
 
-  //   const getProductById = (id) => {
-  //     let index = productData.findIndex((value) => value.id === id);
-  //     return productData[index];
-  //   };
 
-  //   const updateProduct = (product) => {
-  //     let index = productData.findIndex((value) => value.id === product.id);
-  //     let tempProd = productData;
-  //     tempProd[index] = product;
-  //     setProductData([...tempProd]);
-  //   };
+
   return (
     <Context.Provider
       value={{
