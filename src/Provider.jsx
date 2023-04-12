@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Context from "./Context";
-// *import { v4 as uuidv4 } from "uuid";
 
 export default function Provider(props) {
   const [students, setStudents] = useState([]);

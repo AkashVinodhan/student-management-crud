@@ -21,7 +21,7 @@ import { useNavigate } from "react-router-dom";
 const StudentList = () => {
   const context = useContext(Context);
   const { students, fetchStudents, deleteStudent } = context;
-  useEffect(() => fetchStudents(), []);
+  useEffect(() => fetchStudents(), [students]);
 
   const nav = useNavigate();
   const handleEdit = (id) => {
